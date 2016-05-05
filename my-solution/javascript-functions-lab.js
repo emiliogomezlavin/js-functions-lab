@@ -102,7 +102,17 @@ function filterLongWords (array, num) {
 
 
 // Bonus 2
-function charactersOccurencesCount() {
-  
+function charactersOccurencesCount(str) {
+  var newObj = {};
+  for(i=0; i<str.length; i++) {
+  		var currentChar = str.charAt(i);
+  		var res = str.match(/currentChar/g);
+  		
+  }
 }
+
+
+
+
+
 
